@@ -1,0 +1,125 @@
+
+
+body {
+  background: black;
+  background-image: radial-gradient(50% 50% at 0% -20%, #023e8a, transparent),
+                    radial-gradient(60% 60% at 100% -20%, #023e8a, transparent),
+                    radial-gradient(60% 60% at 130% 50%, #5a189a, transparent),
+                    radial-gradient(50% 40% at 50% -10%, #34a0a4, transparent),
+                    radial-gradient(80% 80% at 50% -10%, #5a189a, transparent),
+                    radial-gradient(60% 60% at -30% 40%, #5a189a, transparent),
+                    radial-gradient(60% 140% at -30% 120%, #34a0a4, transparent);
+}
+
+
+
+
+
+.gridContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+
+.header {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.buttoncontainer {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: auto;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+button {
+
+  margin: 10px;
+  background-color: #03A9F4; 
+  padding: 10px;
+  font-size: 14px;
+  color: white;
+  font-family: "Poppins", Verdana, sans-serif;
+  text-align: center;
+  display: inline-block;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+
+}
+
+input {
+
+  margin: 10px;
+
+}
+
+
+
+button:hover {
+
+  border: white;
+  border-style: dotted;
+  cursor: pointer;
+
+}
+
+#steps {
+
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: "Poppins", Verdana, sans-serif;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 70px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  border: #03A9F4;
+  border-style: solid;
+
+}
+
+
+.header h1 {
+
+  font-family: "Codystar", Verdana, sans-serif;
+  font-size: 60px;
+  Margin-left: 30px;
+  color: rgb(234, 255, 214);
+
+}
+
+#speedicon {
+  color: #d16deb;
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+#gridicon {
+  color: #d16deb;
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+.inputwrap {
+  display: flex;
+  align-items: center;
+
+}
